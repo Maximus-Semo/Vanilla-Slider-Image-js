@@ -1,0 +1,47 @@
+.container-img{
+  width: 60vw;
+  height: 50vh;
+  margin: auto;
+  position: relative;
+}
+img{
+  width: 60vw;
+  
+}
+.numberSlider{
+  position: absolute;
+  color: wheat;
+}
+#button{
+  position: absolute;
+  font-size: 30px;
+  left: 10px;
+  top: 120px;
+  color: whitesmoke;
+  padding: 10px;
+}
+#buttonprev{
+  position: absolute;
+  font-size: 30px;
+  right: 20px;
+  top: 120px;
+  color: whitesmoke;
+  padding: 10px;
+  
+}
+#button:hover,
+#buttonprev:hover{
+    background-color: rgba(106, 105, 107, 0.603);
+    border-radius:20px ;
+    cursor: pointer;
+}
+.dot{
+  margin: 20px;
+  padding: 15px;
+  transition: all 0.3s;
+}
+.dot:hover{
+  cursor: pointer;
+  background-color: rgba(106, 105, 107, 0.603);
+  border-radius:20px ;
+}
