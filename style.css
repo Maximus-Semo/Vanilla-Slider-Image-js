@@ -45,3 +45,7 @@ img{
   background-color: rgba(106, 105, 107, 0.603);
   border-radius:20px ;
 }
+.numberSlider{
+  font-size: 18px;
+  margin: 10px;
+}
